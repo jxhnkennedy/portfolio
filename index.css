@@ -1,0 +1,43 @@
+nav {
+  height: 100px;
+  color: white;
+}
+.inline-block {
+  padding: 15px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+}
+.left {
+  float: left;
+  height: 500px;
+
+  width: 30%;
+  text-align: center;
+}
+.right {
+  float: left;
+
+  height: 500px;
+  width: 70%;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+
+  border-radius: 5px;
+  height: 200px;
+  width: 150px;
+  margin: 35px;
+  margin-top: 50px;
+}
+#grad1 {
+  height: 410px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
